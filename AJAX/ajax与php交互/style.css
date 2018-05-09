@@ -1,0 +1,20 @@
+#submit{
+	margin-left: 125px;
+	margin-top: 10px;
+}
+.label{
+	float: left;
+	width: 200px;
+}
+.nameerror{
+	color: red;
+	padding-left: 10px;
+}
+.passerror{
+	color: red;
+	padding-left: 10px;
+}
+.emailerror{
+	color: red;
+	padding-left: 10px;
+}
