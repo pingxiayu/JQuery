@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>验证整个表单</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Enter Your Information</legend>
+		<div>
+			<span class="label">User Id</span>
+			<input type="text" class="userid" name="userid">
+			<span class="error">User id can contain only numeral ,character or _(underscore)</span>
+		</div>
+		<div>
+			<span class="label">Password</span>
+			<input type="password" name="password" class="password">
+			<span class="error">Password cannot be blank </span>
+		</div>
+		<div>
+			<span class="label">Email Address</span>
+			<input type="text" name="emailadd" class="emailadd">
+			<span class="error">Invalid email address</span>
+		</div>
+		</fieldset>
+		<fieldset>
+		<div>
+			<span class="label">Select Food items</span>
+			<br>
+			<input type="checkbox" id="pizza" name="pizza" value="5" class="chkb">Pizza $5
+			<br>
+			<input type="checkbox" id="hotdog" name="hotdog" value="2" class="chkb">HotDog $2
+			<br>
+			<input type="checkbox" id="coke" name="coke" value="1" class="chkb">Coke $1
+			<br>
+			<input type="checkbox" id="fries" name="fires" value="3" class="chkb">French fries
+			<br>
+			<span class="fooderror">You have not selected any food item</span>
+		</div>
+		<div>
+			<span class="label">Mode of Payment</span>
+			<br>
+			<input type="radio" name="paymode" class="radiobtn" value="MasterCard">MasterCard
+			<br>
+			<input type="radio" name="paymode" class="radiobtn" value="ANZ Grindlay Card">ANZ Grindlay Card
+			<br>
+			<input type="radio" name="paymode" class="radiobtn" value="Visa Card">Visa Card
+			<br>
+			<span class="payerror">You have not selected any payment method</span>
+		</div>
+		</fieldset>
+		<fieldset>
+		<div>
+			<span class="label">Country</span>
+			<select id="country" class="infobox">
+				<option value="0">Select a country</option>
+				<option value="China">China</option>
+				<option value="USA">USA</option>
+				<option value="India">India</option>
+				<option value="United">United</option>
+			</select>
+			<span class="error">Please select the country</span>
+			<br>
+		</div>
+		</fieldset>
+		<input type="submit" name="" value="Submit" class="submit">
+	</form>
+</body>
+</html>

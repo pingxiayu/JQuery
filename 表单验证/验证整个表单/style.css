@@ -1,0 +1,42 @@
+.label{
+	float: left;
+	width: 200px;
+}
+
+.infobox{
+	width: 120px;
+}
+
+.error{
+	color: red;
+	padding-left: 10px;
+}
+.submit{
+	margin-left: 200px;
+	margin-top: 10px;
+}
+div{
+	padding: 10px;
+}
+.chkb{
+	margin-left: 200px;
+	margin-top: 10px;
+}
+.radiobtn{
+	margin-left: 200px;
+	margin-top: 10px;
+}
+.inputs{
+	background-color: cyan;
+}
+fieldset{
+	border: 1px solid #888;
+	width: 500px;
+}
+legend{
+	border: 1px solid #888;
+	background-color: cyan;
+	color: blue;
+	font-weight: bold;
+	padding: 5px;
+}

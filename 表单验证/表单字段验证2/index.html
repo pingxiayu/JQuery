@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>表单验证</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="form.js"></script>
+</head>
+
+<body>
+    <form>
+        <div>
+            <span class='label'>User Id</span>
+            <input type="text" name="userid" class="userid infobox">
+            <span class="error">This field cannot be blank</span>
+        </div>
+        <div>
+            <span class="label">Password</span>
+            <input type="password" name="password" class="infobox password">
+            <span class="error">This field cannot be blank</span>
+        </div>
+        <div>
+            <span class="label">Confirm Password</span>
+            <input type="password" name="confpass" class="infobox confpass">
+            <span class="error">Password and confirm Password dont match</span>
+        </div>
+        <input type="submit" class="submit" value="Submit">
+    </form>
+</body>
+
+</html>

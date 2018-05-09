@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>表单验证</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+	<!--<form id='signup' method="post" action="">
+		<div>
+			<span class="label">User Id</span>
+			<input type="text" name="userid" class="user infobox">
+			<span class='userE error'>This field cannot be blank</span>
+		</div>
+		<div>
+			<span class='label'>Enter Age</span>
+			<input type="text" name="age" class="age infobox">
+			<span class='ageE error'>Only numericals or word allowed</span>
+		</div>
+		<div>
+			<span class="label">Enter Phone number</span>
+			<input type="text" name="phone" class="mob infobox">
+			<span class='phoneE error'>Phone number can contain only numbers,+ and -</span>
+		</div>
+		<div>
+			<span class="label">Enter Date of Birth</span>
+			<input type="text" name="birth" class="birth infobox">
+			<span class='birE error'>Invalid Daye.Correct format is mm/dd/yyyy or mm-dd-yyyy</span>
+		</div>
+		<div>
+			<span class="label">Enter Email Id</span>
+			<input type="text" name="email" class="email infobox">
+			<span class="emailE error">Invalid eamil id. must be xxx.@.xxx</span>
+		</div>
+		<input type="submit" name="" class="submit" value='Submit'>
+	</form>-->
+
+	<form>
+		<input type="checkbox" class='infobox' id='checkall'>check/Uncheck all checkboxes
+		<br>
+		<input type="checkbox" name="pizza" id='pizza' value='5' class="infobox">Pizza $5
+		<br>
+		<input type="checkbox" name="hotdog" id='hotdog' value='2' class='infobox'>Hot dog $2
+		<br>
+		<input type="checkbox" name="coke" id="coke" value="1" class="infobox">Coke $1
+		<br>
+		<input type="checkbox" name="fries" id="fries" value="3" class="infobox">French Fries $3
+		<br>
+		<input type="radio" name="paymode" class="infobox" value="MasterCard">MasterCard
+		<br>
+		<input type="radio" name="paymode" class='infobox' value="ANZ grindlay Card">ANZ grindlay Card
+		<br>
+		<input type="radio" name="paymode" class="infobox" value="Visa Card">Visa Card
+		<br>
+		<p class="error">Select at least one checkbox</p>
+		<p class="result"></p>
+		<input type="submit" name="" class="submit" value="Submit">
+		<br>
+		<span class="label">Select the food item</span>
+		<select id='food' class="infobox">
+			<option value="0">Select a food</option>
+			<option value="pizza $5">pizza $5</option>
+			<option value="hotdog $2">hotdog $2</option>
+			<option value="coke $1">coke $1</option>
+		</select>
+		<p class='error'>you have not selected any option</p>
+		<p class="result1"></p>
+	</form>
+</body>
+</html>

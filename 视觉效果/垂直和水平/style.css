@@ -1,0 +1,54 @@
+/*#scroller{
+	position: relative;
+	height: 600px;
+	width: 150px;
+	overflow:hidden;
+}
+#scroller a img{
+	display: block;
+	border:0 ;
+	width: 150px;
+	height: 150px;
+	vertical-align: bottom;
+}
+#images{
+	position: absolute;
+	width: 150px;
+	height: 600px;
+}*/
+
+/*中间垂直滚动*/
+/*#scroller{
+	top: 180px;
+	height: 600px;
+	width: 150px;
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+}
+#images a img{
+	width: 150px;
+	height: 150px;
+	vertical-align: bottom;
+}
+#images{
+	position: absolute;
+*/
+#scroller{
+	position: relative;
+	height: 150px;
+	width: 450px;
+	overflow: hidden;
+	margin: auto;
+}
+#images{
+	width: 600px;
+	position: absolute;
+}
+#images a img{
+	border: 0;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+

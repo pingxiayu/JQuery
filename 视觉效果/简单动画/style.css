@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 150px;
+	height: 150px;
+	position: relative;
+}
+#scroll{
+	width: 155px;
+	height: 155px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+.image{
+	position: relative;
+}
